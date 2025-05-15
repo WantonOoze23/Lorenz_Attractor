@@ -39,7 +39,7 @@ if __name__ == "__main__":
     plt.legend()
 
     def update(frame):
-        lower_lim = max(0, frame - 200)
+        lower_lim = max(0, frame - 100)
 
         x_current_1 = x_sol_1[lower_lim:frame+1]
         y_current_1 = y_sol_1[lower_lim:frame+1]
